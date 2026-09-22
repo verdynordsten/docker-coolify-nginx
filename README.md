@@ -37,3 +37,12 @@ To deploy on your Coolify VPS instead, follow `docs/coolify-guide.md`
 | `scripts/rollback.sh` | retag to previous image and restart |
 | `docs/coolify-guide.md` | Coolify + Cloudflare wiring, step by step |
 | `tests/test.sh` | compose/yaml + nginx + script checks |
+
+## Evidence (real run)
+
+![sysinfo](docs/screenshots/shot-sysinfo.png)
+![health-check](docs/screenshots/shot-health-check.png)
+![backup](docs/screenshots/shot-backup-verify.png)
+![useradd](docs/screenshots/shot-useradd-dryrun.png)
+![http](docs/screenshots/shot-http-monitor.png)
+![logwatch](docs/screenshots/shot-logwatch.png)
